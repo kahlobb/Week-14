@@ -1,4 +1,5 @@
 import React from 'react';
+import Stars from './stars';
 
 
 // Define the 'Review' component - takes a 'review' object as a prop
@@ -10,6 +11,7 @@ import React from 'react';
 const Review = ({ review }) => {
   return (
     <div key={review.id}>
+      <Stars />
       <p>{review.text}</p>
     </div>
   );

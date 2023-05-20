@@ -12,6 +12,7 @@ const movies = [
     synopsis: 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.',
     image: GodfatherPoster,
     reviews: [],
+    ratings: []
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ const movies = [
     synopsis: 'James Cameron\'s "Titanic" is an epic, action-packed romance set against the ill-fated maiden voyage of the R.M.S. Titanic; the pride and joy of the White Star Line and, at the time, the largest moving object ever built. She was the most luxurious liner of her era -- the "ship of dreams" -- which ultimately carried over 1,500 people to their death in the ice cold waters of the North Atlantic in the early hours of April 15, 1912.',
     image: TitanicPoster,
     reviews: [],
+    ratings: []
   },
   {
     id: 3,
@@ -26,6 +28,7 @@ const movies = [
     synopsis: 'As students at the United States Navy\'s elite fighter weapons school compete to be best in the class, one daring young pilot learns a few things from a civilian instructor that are not taught in the classroom.',
     image: TopGunPoster,
     reviews: [],
+    ratings: []
   },
 ];
 
