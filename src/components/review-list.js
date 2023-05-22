@@ -1,6 +1,5 @@
 import React from 'react';
 import Review from './review';
-import Stars from './stars';
 
 // Define the 'ReviewList' component - takes 'reviews' array as a prop
 /* If there are reviews in the 'reviews' array,

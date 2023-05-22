@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import StarRating from './star-rating';
 
 const Stars = ({ reviews }) => {
   const [selectedRating, setSelectedRating] = useState(0);
@@ -22,6 +23,7 @@ const Stars = ({ reviews }) => {
         </span>
       ))}
       <p>{selectedRating} / 5</p>
+      <StarRating selectedRating={selectedRating} />
     </div>
   );
 };
